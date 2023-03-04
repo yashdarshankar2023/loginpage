@@ -18,7 +18,7 @@ const register_mechanic = () => {
                 <h1 className='register_head1'>HM</h1>
                 <h4 className='register_head2'>For Unstoppable Journey</h4>
                 <br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br /><br />
-                <Button variant="primary" className='register_first_btn'>Primary</Button>
+                <Button variant="primary" className='register_first_btn'>Back to role selection</Button>
             </div>
             <div className='register_second'>
                 <div className='register_mechanic_card'>

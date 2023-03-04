@@ -41,7 +41,7 @@ const login_mechanic = () => {
               <Form.Group className="mb-3" controlId="formBasicCheckbox">
                 <Form.Check type="checkbox" label="Remember me" />
               </Form.Group>
-              <Link to="/forgot">Forgot password?</Link>
+              <Link to="/passwordreset">Forgot password?</Link>
             </div>
 
             <Button variant="primary" type="submit">
@@ -55,7 +55,7 @@ const login_mechanic = () => {
 
             <div className='form_text'>
               <p>Don't have an account?</p>
-              <Link to="/signupuser">Register</Link>
+              <Link to="/registermechanic">Register</Link>
 
             </div>
             

@@ -67,9 +67,9 @@ const signup_user = () => {
                         </Form.Group>
                         <div className='flexing'>
                             <Form.Group className="mb-3" controlId="formBasicCheckbox">
-                                <Form.Check type="checkbox" label="Remember me" />
+                                <Form.Check type="checkbox" label="I agree with terms and conditions" />
                             </Form.Group>
-                            <a href='11'>Forgot password?</a>
+                            {/* <a href='11'>Forgot password?</a> */}
                         </div>
 
                         <Button variant="primary" type="submit">
@@ -79,16 +79,16 @@ const signup_user = () => {
                         <br />
 
 
-
+{/* 
 
                         <div className='form_text'>
                             <p>Don't have an account?</p>
                             <a href='11'>Register</a>
 
-                        </div>
+                        </div> */}
 
                         <div className='form_text2'>
-                            <p>Or Login with</p>
+                            <p>Or Signup with</p>
                         </div>
                         <br />
 

@@ -41,7 +41,7 @@ const login = () => {
               <Form.Group className="mb-3" controlId="formBasicCheckbox">
                 <Form.Check type="checkbox" label="Remember me" />
               </Form.Group>
-              <Link to="/forgot">Forgot password?</Link>
+              <Link to="/passwordreset">Forgot password?</Link>
             </div>
 
             <Button variant="primary" type="submit">
