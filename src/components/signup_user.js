@@ -6,7 +6,7 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 import Col from 'react-bootstrap/Col';
 import Row from 'react-bootstrap/Row';
 import InputGroup from 'react-bootstrap/InputGroup';
-
+import { Link } from 'react-router-dom';
 
 
 const signup_user = () => {
@@ -19,7 +19,7 @@ const signup_user = () => {
 
                 <h1 className='heading3'>Stuck at travelling?yes,  you are at right place to seek help!</h1>
 
-                <Button variant="primary">Back to role selection</Button>{' '}
+                <Button variant="primary" id='signup_role_btn'>Back to role selection</Button>{' '}
 
             </div>
             <div className='page'>
@@ -43,7 +43,7 @@ const signup_user = () => {
                         </Row>
                         <Form.Label>Phone number</Form.Label>
                         <InputGroup className="mb-3">
-                        
+
                             <InputGroup.Text id="basic-addon1">+91</InputGroup.Text>
                             <Form.Control
                                 placeholder="Username"
@@ -79,7 +79,7 @@ const signup_user = () => {
                         <br />
 
 
-{/* 
+                        {/* 
 
                         <div className='form_text'>
                             <p>Don't have an account?</p>
@@ -99,6 +99,14 @@ const signup_user = () => {
                         <br />
 
                         <Button variant="outline-primary" className='social_media_btn'>Login Via Google</Button>
+                        <br/>
+                        <br/>
+                    
+                        <div className='form_text'>
+                            <p>Already have an account?</p>
+                            <Link to="/loginuser">Log in</Link>
+
+                        </div>
 
 
 

@@ -37,7 +37,7 @@ const password_reset = () => {
 
 
                 
-                        <p className='small_text'>Don't have an account?</p>
+                        <p className='small_text'>Use mobile number</p>
                         
 
                     

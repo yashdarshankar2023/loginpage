@@ -15,7 +15,7 @@ const login_mechanic = () => {
 
         <h1 className='heading3'>Stuck at travelling?yes,  you are at right place to seek help!</h1>
 
-        <Button variant="primary">Back to role selection</Button>{' '}
+        <Button variant="primary" className='back_role_btn'>Back to role selection</Button>
 
       </div>
       <div className='page'>
